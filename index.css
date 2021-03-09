@@ -265,4 +265,8 @@ video#bgvideo {
     margin: 10px;
     /* background-color: black; */
   }
+
+  #opening-text {
+    font-size: 14px;
+  }
 }
