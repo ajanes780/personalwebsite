@@ -277,12 +277,12 @@ video#bgvideo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/moviesetmobile.png);
+    background-image: url(./assets/moviesetmobile2.png);
     background-color: black;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment:  */
     /* background-size: 400px, auto; */
     width: auto;
     height: 650px;
