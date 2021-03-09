@@ -51,9 +51,9 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../personalwebsite/assets/movieset.jpg);
+  background-image: url(./assets/movieset.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: none;
   background-attachment: fixed;
   width: auto;
@@ -92,7 +92,7 @@ video#bgvideo {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(placeholder.jpg) no-repeat;
+  background: url(./assets/movieset.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -135,7 +135,6 @@ video#bgvideo {
   margin: 8px;
   padding: 20px 20px;
   border: white 2px solid;
-  background-color: black;
 }
 #contact ul {
   display: flex;
@@ -180,4 +179,5 @@ video#bgvideo {
   padding: 20px;
   border: white 2px solid;
   color: white;
+  background-color: black;
 }
