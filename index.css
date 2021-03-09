@@ -279,7 +279,7 @@ video#bgvideo {
     align-items: center;
     background-image: url(./assets/movieset.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: none;
     background-attachment: fixed;
     width: auto;
