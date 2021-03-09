@@ -16,20 +16,22 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Aaron Janes</title>
+    <title>Aaron Janes | Web developer</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <i class="fas fa-laptop-code"></i>
-        <li>Home</li>
-        <li>contact</li>
-        <li>Projects</li>
-        <li>Referrals</li>
-      </ul>
-    </nav>
+    <header id="header">
+      <i id="logo" class="fas fa-laptop-code"></i>
+      <nav id="nav">
+        <ul>
+          <li>Home</li>
+          <li>contact</li>
+          <li>Projects</li>
+          <li>Referrals</li>
+        </ul>
+      </nav>
+    </header>
 
-    <video
+    <!-- <video
       playsinline
       autoplay
       muted
@@ -39,26 +41,44 @@
     >
       <source src="polina.webm" type="video/webm" />
       <source src="/assets/current.mp4" type="video/mp4" />
-    </video>
+    </video> -->
 
-    <div id="viewport-header">
-      <i id="header-icon" class="fas fa-laptop-code"></i>
-      <h1>
-        Hey I'm Aaron <br />
-        Im A Full Stack Web developer
-        <div>
-          <h3>
-            Located In Alberta And I Create Beautiful and Functional Websites &
-            Applications For People Just Like You
-          </h3>
-        </div>
-      </h1>
+    <div id="hero">
+      <video
+        playsinline
+        autoplay
+        muted
+        loop
+        poster="placeholder.jpg"
+        id="bgvideo"
+        width="x"
+        height="y"
+      >
+        <source src="./assets/current.mp4" type="video/mp4" />
+      </video>
+
+      <div id="opening-text">
+        <i id="hero-icon" class="fas fa-laptop-code"></i>
+        <h1>
+          Hey I'm Aaron <br />
+          Im A Full Stack Web developer
+        </h1>
+
+        <h3>
+          Located In Alberta And I Create Beautiful and Functional Websites &
+          Applications For People Just Like You
+        </h3>
+      </div>
     </div>
 
     <div id="infocontainer">
       <div id="aboutme">
         <p>
-          About Me: <br />
+          About Me
+
+          <i class="far fa-address-card"></i>
+          <br />
+
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           nobis excepturi. Dolor, vero placeat illo magnam ducimus nihil harum
           eveniet. Distinctio repellat et, eius nihil ut aliquid blanditiis
@@ -67,6 +87,7 @@
       </div>
       <div id="contact">
         <p>
+          Contact Me <i class="far fa-envelope-open"></i> <br />
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           nobis excepturi. Dolor, vero placeat illo magnam ducimus nihil harum
           eveniet. Distinctio repellat et, eius nihil ut aliquid blanditiis
@@ -76,13 +97,23 @@
 
       <div id="education">
         <p>
-          Education: <br />
+          Education
+          <i class="fas fa-university"></i>
+
+          <br />
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
           nobis excepturi. Dolor, vero placeat illo magnam ducimus nihil harum
           eveniet. Distinctio repellat et, eius nihil ut aliquid blanditiis
           consequatur earum porro, quaerat, consectetur temporibus mollitia.
         </p>
       </div>
+    </div>
+
+    <div id="portfolio">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+      eligendi sed saepe aliquid voluptates assumenda soluta blanditiis,
+      officiis sapiente porro harum sit? Adipisci explicabo repudiandae
+      accusamus accusantium obcaecati illo ipsam.
     </div>
   </body>
 </html>
