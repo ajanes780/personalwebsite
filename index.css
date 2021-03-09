@@ -59,7 +59,7 @@ li {
   align-items: center;
   background-image: url(./assets/movieset.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
   width: auto;
@@ -178,14 +178,6 @@ video#bgvideo {
   background-color: black;
 }
 
-#portfolio {
-  padding: 50px 0px;
-  height: 600px;
-  width: auto;
-  background-color: black;
-  color: white;
-}
-
 #test {
   max-width: 45%;
   height: auto;
@@ -194,4 +186,83 @@ video#bgvideo {
   border: white 2px solid;
   color: white;
   /* background-color: black; */
+}
+
+@media (max-width: 500px) {
+  #infocontainer {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    line-height: 2em;
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  #aboutme {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 2px;
+    padding: 2em;
+    border: white 2px solid;
+  }
+
+  #aboutme :hover {
+    background-color: #ccc;
+  }
+  #contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 100%;
+    height: 150px;
+    margin-top: 15px, 10px;
+    margin: 17px;
+    padding: 20px 20px;
+    border: white 2px solid;
+    background-color: black;
+  }
+  #contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    display: inline;
+  }
+  #contact li {
+    display: block;
+    align-items: justified;
+    padding: 0;
+
+    height: 25px;
+    margin-right: 50px;
+  }
+
+  #contact p {
+    margin-left: 12px;
+    font-size: 18px;
+  }
+  #education {
+    width: 400px;
+    height: auto;
+    margin: 7px;
+    padding: 2em;
+    border: white 2px solid;
+    padding-right: 1em;
+    background-color: black;
+  }
+
+  #test {
+    max-width: 100%;
+    height: auto;
+    /* margin: 10px 25px; */
+    padding: 2em;
+    border: white 2px solid;
+    color: white;
+    margin: 10px;
+    /* background-color: black; */
+  }
 }
