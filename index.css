@@ -172,3 +172,12 @@ video#bgvideo {
   background-color: black;
   color: white;
 }
+
+#test {
+  max-width: 100%;
+  height: 350px;
+  margin: 10px 10px;
+  padding: 20px;
+  border: white 2px solid;
+  color: white;
+}
