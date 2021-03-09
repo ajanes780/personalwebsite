@@ -282,7 +282,8 @@ video#bgvideo {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 350px;
+    background-size: auto;
+    width: auto;
     height: 650px;
     border: 1px white solid;
     margin: 10px;
