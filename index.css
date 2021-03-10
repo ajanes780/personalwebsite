@@ -305,6 +305,42 @@ video#bgvideo {
 }
 
 @media (max-width: 800px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.66);
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    padding: 15px;
+  }
+  li {
+    display: inline;
+    padding-left: 20px;
+    height: 250px;
+    color: white;
+    padding-top: 10px;
+  }
+
+  #contact-icons i {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+  }
+
   #infocontainer {
     display: flex;
     max-width: 100%;
@@ -323,12 +359,8 @@ video#bgvideo {
     margin: 10px 2px;
     padding: 2em;
     border: white 2px solid;
-    background-color: rgba(0, 0, 0, 0.66);
   }
 
-  #aboutme :hover {
-    background-color: #ccc;
-  }
   #contact {
     color: white;
     display: flex;
@@ -363,7 +395,7 @@ video#bgvideo {
     font-size: 18px;
   }
   #education {
-    width: 100%;
+    width: 400px;
     height: auto;
     margin: 7px;
     padding: 2em;
@@ -379,6 +411,7 @@ video#bgvideo {
     border: white 2px solid;
     color: white;
     margin: 10px;
+    background-color: rgba(0, 0, 0, 0.66);
   }
 
   #opening-text {
@@ -392,9 +425,9 @@ video#bgvideo {
     justify-content: center;
     align-items: center;
     background-image: url(./assets/moviesetmobile2.png);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.66);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: auto;
     height: 650px;
