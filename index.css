@@ -460,9 +460,6 @@ video#bgvideo {
     border: white 2px solid;
   }
 
-  #aboutme :hover {
-    background-color: #ccc;
-  }
   #contact {
     color: white;
     display: flex;
@@ -529,7 +526,7 @@ video#bgvideo {
     background-image: url(./assets/moviesetmobile2.png);
     background-color: rgba(0, 0, 0, 0.66);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: auto;
     height: 650px;
