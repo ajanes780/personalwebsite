@@ -5,7 +5,6 @@
 }
 
 body {
-  display: flexbox;
 }
 /*  Header / Nav  */
 #header {
@@ -137,6 +136,10 @@ video#bgvideo {
   background-color: #ccc;
 }
 #contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   color: white;
   display: flex;
   flex-direction: column;
@@ -169,6 +172,18 @@ video#bgvideo {
   margin-left: 12px;
   font-size: 18px;
 }
+
+#contact-icons {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+#contact-icons i {
+  font-size: 25px;
+  padding: 25px;
+  color: white;
+}
+
 #education {
   width: 40%;
   height: auto;
@@ -188,6 +203,8 @@ video#bgvideo {
   color: white;
   /* background-color: black; */
 }
+
+/*  Media Queries  */
 
 @media (max-width: 800px) {
   #infocontainer {
@@ -291,6 +308,9 @@ video#bgvideo {
     margin: 10px;
   }
 }
+
+/*  Media Queries  */
+
 @media (max-width: 500px) {
   #infocontainer {
     display: flex;
