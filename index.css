@@ -281,7 +281,7 @@ video#bgvideo {
     background-image: url(./assets/moviesetmobile2.png);
     background-color: black;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment:  */
     /* background-size: 400px, auto; */
@@ -383,7 +383,7 @@ video#bgvideo {
     background-image: url(./assets/moviesetmobile2.png);
     background-color: black;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment:  */
     /* background-size: 400px, auto; */
@@ -486,7 +486,7 @@ video#bgvideo {
     background-image: url(./assets/moviesetmobile2.png);
     background-color: black;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment:  */
     /* background-size: 400px, auto; */
