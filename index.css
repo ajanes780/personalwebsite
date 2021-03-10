@@ -4,14 +4,13 @@
   font-family: "Oswald", sans-serif;
 }
 
-body {
-}
 /*  Header / Nav  */
 #header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
+  background-color: rgba(0, 0, 0, 0.66);
 }
 
 a {
@@ -65,6 +64,7 @@ li {
   height: 650px;
   border: 1px white solid;
   margin: 10px;
+  background-color: rgba(0, 0, 0, 0.66);
 }
 
 #opening-text {
@@ -78,6 +78,7 @@ li {
   border: white 1px solid;
   padding: 35px;
 }
+
 #hero-icon {
   font-size: 55px;
   text-align: center;
@@ -100,17 +101,14 @@ video#bgvideo {
   transform: translateX(-50%) translateY(-50%);
   background: url(./assets/movieset.jpg) no-repeat;
   background-size: cover;
-  opacity: 92%;
 }
 
 #intro {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   border: 2px solid black;
   padding: 25px;
   margin: 10px;
-  /* background-color: grey; */
 }
 
 #infocontainer {
@@ -130,6 +128,7 @@ video#bgvideo {
   margin: 10px 2px;
   padding: 2em;
   border: white 2px solid;
+  background-color: rgba(0, 0, 0, 0.66);
 }
 
 #aboutme :hover {
@@ -139,7 +138,6 @@ video#bgvideo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   color: white;
   display: flex;
   flex-direction: column;
@@ -150,7 +148,7 @@ video#bgvideo {
   margin: 8px;
   padding: 20px 20px;
   border: white 2px solid;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.66);
 }
 #contact ul {
   display: flex;
@@ -163,7 +161,6 @@ video#bgvideo {
   display: block;
   align-items: justified;
   padding: 0;
-
   height: 25px;
   margin-right: 50px;
 }
@@ -191,228 +188,19 @@ video#bgvideo {
   padding: 2em;
   border: white 2px solid;
   padding-right: 1em;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.66);
 }
 
 #test {
   max-width: 45%;
   height: auto;
-  /* margin: 10px 25px; */
   padding: 2em;
   border: white 2px solid;
   color: white;
-  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.66);
 }
 
 /*  Media Queries  */
-
-@media (max-width: 800px) {
-  #infocontainer {
-    display: flex;
-    max-width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    color: white;
-    line-height: 2em;
-    font-size: 18px;
-    margin: 10px;
-  }
-
-  #aboutme {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 2px;
-    padding: 2em;
-    border: white 2px solid;
-  }
-
-  #aboutme :hover {
-    background-color: #ccc;
-  }
-  #contact {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 100%;
-    height: 150px;
-    margin-top: 15px, 10px;
-    margin: 17px;
-    padding: 20px 20px;
-    border: white 2px solid;
-    background-color: black;
-  }
-  #contact ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    display: inline;
-  }
-  #contact li {
-    display: block;
-    align-items: justified;
-    padding: 0;
-
-    height: 25px;
-    margin-right: 50px;
-  }
-
-  #contact p {
-    margin-left: 12px;
-    font-size: 18px;
-  }
-  #education {
-    width: 100%;
-    height: auto;
-    margin: 7px;
-    padding: 2em;
-    border: white 2px solid;
-    padding-right: 1em;
-    background-color: black;
-  }
-
-  #test {
-    max-width: 100%;
-    height: auto;
-    /* margin: 10px 25px; */
-    padding: 2em;
-    border: white 2px solid;
-    color: white;
-    margin: 10px;
-    /* background-color: black; */
-  }
-
-  #opening-text {
-    font-size: 14px;
-    border: none !important;
-    padding: 35px;
-  }
-
-  #hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./assets/moviesetmobile2.png);
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment:  */
-    /* background-size: 400px, auto; */
-    width: auto;
-    height: 650px;
-    border: 1px white solid;
-    margin: 10px;
-  }
-}
-
-/*  Media Queries  */
-
-@media (max-width: 500px) {
-  #infocontainer {
-    display: flex;
-    max-width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    color: white;
-    line-height: 2em;
-    font-size: 18px;
-    margin: 10px;
-  }
-
-  #aboutme {
-    max-width: 100%;
-    height: auto;
-    margin: 10px 2px;
-    padding: 2em;
-    border: white 2px solid;
-  }
-
-  #aboutme :hover {
-    background-color: #ccc;
-  }
-  #contact {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 100%;
-    height: 150px;
-    margin-top: 15px, 10px;
-    margin: 17px;
-    padding: 20px 20px;
-    border: white 2px solid;
-    background-color: black;
-  }
-  #contact ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    display: inline;
-  }
-  #contact li {
-    display: block;
-    align-items: justified;
-    padding: 0;
-
-    height: 25px;
-    margin-right: 50px;
-  }
-
-  #contact p {
-    margin-left: 12px;
-    font-size: 18px;
-  }
-  #education {
-    width: 400px;
-    height: auto;
-    margin: 7px;
-    padding: 2em;
-    border: white 2px solid;
-    padding-right: 1em;
-    background-color: black;
-  }
-
-  #test {
-    max-width: 100%;
-    height: auto;
-    /* margin: 10px 25px; */
-    padding: 2em;
-    border: white 2px solid;
-    color: white;
-    margin: 10px;
-    /* background-color: black; */
-  }
-
-  #opening-text {
-    font-size: 14px;
-    border: none !important;
-    padding: 35px;
-  }
-
-  #hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./assets/moviesetmobile2.png);
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment:  */
-    /* background-size: 400px, auto; */
-    width: auto;
-    height: 650px;
-    border: 1px white solid;
-    margin: 10px;
-  }
-}
 
 @media (max-width: 1100px) {
   #infocontainer {
@@ -494,7 +282,6 @@ video#bgvideo {
 
   #opening-text {
     font-size: 14px;
-    border: none !important;
     padding: 35px;
   }
 
@@ -510,6 +297,240 @@ video#bgvideo {
     background-repeat: no-repeat;
     /* background-attachment:  */
     /* background-size: 400px, auto; */
+    width: auto;
+    height: 650px;
+    border: 1px white solid;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  #infocontainer {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    line-height: 2em;
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  #aboutme {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 2px;
+    padding: 2em;
+    border: white 2px solid;
+    background-color: rgba(0, 0, 0, 0.66);
+  }
+
+  #aboutme :hover {
+    background-color: #ccc;
+  }
+  #contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 100%;
+    height: 150px;
+    margin-top: 15px, 10px;
+    margin: 17px;
+    padding: 20px 20px;
+    border: white 2px solid;
+    background-color: black;
+  }
+  #contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    display: inline;
+  }
+  #contact li {
+    display: block;
+    align-items: justified;
+    padding: 0;
+
+    height: 25px;
+    margin-right: 50px;
+  }
+
+  #contact p {
+    margin-left: 12px;
+    font-size: 18px;
+  }
+  #education {
+    width: 100%;
+    height: auto;
+    margin: 7px;
+    padding: 2em;
+    border: white 2px solid;
+    padding-right: 1em;
+    background-color: rgba(0, 0, 0, 0.66);
+  }
+
+  #test {
+    max-width: 100%;
+    height: auto;
+    padding: 2em;
+    border: white 2px solid;
+    color: white;
+    margin: 10px;
+  }
+
+  #opening-text {
+    font-size: 14px;
+    padding: 35px;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/moviesetmobile2.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 650px;
+    border: 1px white solid;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.66);
+  }
+
+  #nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    padding: 15px;
+  }
+  li {
+    display: inline;
+    padding-left: 20px;
+    height: 250px;
+    color: white;
+    padding-top: 10px;
+  }
+
+  #contact-icons i {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+  }
+
+  #infocontainer {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    line-height: 2em;
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  #aboutme {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 2px;
+    padding: 2em;
+    border: white 2px solid;
+  }
+
+  #aboutme :hover {
+    background-color: #ccc;
+  }
+  #contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 100%;
+    height: 150px;
+    margin-top: 15px, 10px;
+    margin: 17px;
+    padding: 20px 20px;
+    border: white 2px solid;
+    background-color: black;
+  }
+  #contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    display: inline;
+  }
+  #contact li {
+    display: block;
+    align-items: justified;
+    padding: 0;
+
+    height: 25px;
+    margin-right: 50px;
+  }
+
+  #contact p {
+    margin-left: 12px;
+    font-size: 18px;
+  }
+  #education {
+    width: 400px;
+    height: auto;
+    margin: 7px;
+    padding: 2em;
+    border: white 2px solid;
+    padding-right: 1em;
+    background-color: rgba(0, 0, 0, 0.66);
+  }
+
+  #test {
+    max-width: 100%;
+    height: auto;
+    padding: 2em;
+    border: white 2px solid;
+    color: white;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.66);
+  }
+
+  #opening-text {
+    font-size: 14px;
+    padding: 35px;
+  }
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/moviesetmobile2.png);
+    background-color: rgba(0, 0, 0, 0.66);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: auto;
     height: 650px;
     border: 1px white solid;
