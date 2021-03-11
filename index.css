@@ -158,7 +158,7 @@ video#bgvideo {
   color: white;
   line-height: 2em;
   font-size: 18px;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 #education {
@@ -166,7 +166,7 @@ video#bgvideo {
   width: 40%;
   height: auto;
   margin: 10px;
-  padding: 2em;
+  padding: 2.2em;
   border: white 2px solid;
   padding-right: 1em;
   background-color: rgba(0, 0, 0, 0.66);
@@ -405,6 +405,7 @@ video#bgvideo {
     margin: 10px 2px;
     padding: 2em;
     border: white 2px solid;
+    background-color: rgba(0, 0, 0, 0.66);
   }
 
   #contact {
@@ -537,6 +538,7 @@ video#bgvideo {
     margin: 10px 2px;
     padding: 2em;
     border: white 2px solid;
+    background-color: rgba(0, 0, 0, 0.66);
   }
 
   #contact {
