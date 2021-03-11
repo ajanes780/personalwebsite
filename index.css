@@ -13,19 +13,27 @@
   background-color: rgba(0, 0, 0, 0.66);
 }
 
+a #referencelinks {
+  color: white;
+  /* text-decoration: none; */
+}
 a {
   color: white;
   text-decoration: none;
-}
-#referencelinks {
-  color: white;
-  /* text-decoration: none; */
 }
 
 i {
   margin: 0px, 50px;
   padding-right: 15px;
+  /* font-size: 25px; */
+  transition: all 1s ease-in-out;
 }
+
+i:hover {
+  color: purple;
+  font-size: 50px;
+}
+
 #logo {
   display: flex;
   justify-content: flex-end;
@@ -52,6 +60,13 @@ li {
   height: 250px;
   color: white;
   padding-top: 10px;
+  font-size: 16px;
+  transition: all 5s ease-in-out;
+}
+
+li :hover {
+  color: purple;
+  font-size: 20px;
 }
 
 #hero {
@@ -88,6 +103,13 @@ li {
   text-align: center;
   padding-bottom: 25px;
   color: white;
+  transition: all 1s ease-in-out;
+}
+
+#hero-icon:hover {
+  color: purple;
+  border-radius: 50%;
+  font-size: 100px;
 }
 
 video#bgvideo {
@@ -183,6 +205,12 @@ video#bgvideo {
   font-size: 25px;
   padding: 25px;
   color: white;
+  transition: all 1s ease-in-out;
+}
+
+#contact-icons i:hover {
+  color: purple;
+  font-size: 50px;
 }
 
 #education {
