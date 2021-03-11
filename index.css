@@ -312,7 +312,7 @@ video#bgvideo {
     padding: 2em;
     border: white 2px solid;
     padding-right: 1em;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.66);
   }
 
   #test {
@@ -323,31 +323,31 @@ video#bgvideo {
     border: white 2px solid;
     color: white;
     margin: 10px;
-    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.66);
   }
+}
 
-  #opening-text {
-    font-size: 14px;
-    padding: 35px;
-  }
+#opening-text {
+  font-size: 14px;
+  padding: 35px;
+}
 
-  #hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./assets/moviesetmobile2.png);
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment:  */
-    /* background-size: 400px, auto; */
-    width: auto;
-    height: 650px;
-    border: 1px white solid;
-    margin: 10px;
-  }
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(./assets/moviesetmobile2.png); */
+  /* background-color: black; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment:  */
+  /* background-size: 400px, auto; */
+  width: auto;
+  height: 650px;
+  border: 1px white solid;
+  margin: 10px;
 }
 
 @media (max-width: 800px) {
@@ -470,11 +470,11 @@ video#bgvideo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/moviesetmobile2.png);
+    /* background-image: url(./assets/moviesetmobile2.png); */
     background-color: rgba(0, 0, 0, 0.66);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
     width: auto;
     height: 650px;
     border: 1px white solid;
@@ -602,11 +602,11 @@ video#bgvideo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/moviesetmobile2.png);
+    /* background-image: url(./assets/moviesetmobile2.png); */
     background-color: rgba(0, 0, 0, 0.66);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
     width: auto;
     height: 650px;
     border: 1px white solid;
