@@ -74,7 +74,7 @@ li :hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./assets/movieset.jpg);
+  /* background-image: url(./assets/movieset.jpg); */
   background-position: center;
   background-size: contain;
   background-repeat: none;
@@ -83,7 +83,7 @@ li :hover {
   height: 650px;
   border: 1px white solid;
   margin: 10px;
-  background-color: rgba(0, 0, 0, 0.66);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #opening-text {
@@ -202,7 +202,7 @@ video#bgvideo {
   flex-direction: column;
   justify-content: start;
   max-width: 100%;
-  height: 200px;
+  height: 150px;
   margin-top: 15px, 10px;
   margin: 8px;
   padding: 20px 20px;
@@ -322,36 +322,32 @@ video#bgvideo {
   #test {
     max-width: 100%;
     height: auto;
-    /* margin: 10px 25px; */
     padding: 2em;
     border: white 2px solid;
     color: white;
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.66);
   }
-}
 
-#opening-text {
-  font-size: 14px;
-  padding: 35px;
-}
+  #opening-text {
+    font-size: 14px;
+    padding: 35px;
+  }
 
-#hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-image: url(./assets/moviesetmobile2.png); */
-  /* background-color: black; */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-attachment:  */
-  /* background-size: 400px, auto; */
-  width: auto;
-  height: 650px;
-  border: 1px white solid;
-  margin: 10px;
+  #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.66);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 650px;
+    border: 1px white solid;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -475,11 +471,8 @@ video#bgvideo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-image: url(./assets/moviesetmobile2.png); */
     background-color: rgba(0, 0, 0, 0.66);
-    /* background-position: center; */
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
+
     width: auto;
     height: 650px;
     border: 1px white solid;
@@ -608,12 +601,8 @@ video#bgvideo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.66);
-    /* background-image: url(./assets/moviesetmobile2.png); */
-    /* background-position: center; */
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
-    width: auto;
+    background-color: rgba(0, 0, 0, 0.66) !important;
+
     height: 650px;
     border: 1px white solid;
     margin: 10px;
