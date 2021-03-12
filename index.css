@@ -381,7 +381,7 @@ video#bgvideo {
     padding-top: 10px;
   }
 
-  #contact-icons i {
+  #contact-icons {
     font-size: 25px;
     padding: 10px;
     color: white;
@@ -494,6 +494,7 @@ video#bgvideo {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 50px;
     padding-left: 25px;
     padding-right: 25px;
   }
@@ -511,7 +512,7 @@ video#bgvideo {
     padding-top: 10px;
   }
 
-  #contact-icons i {
+  #contact-icons {
     font-size: 25px;
     padding: 10px;
     color: white;
