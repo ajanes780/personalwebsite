@@ -298,7 +298,7 @@ video#bgvideo {
     padding: 2em;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -314,7 +314,7 @@ video#bgvideo {
     padding: 20px 20px;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
   #contact ul {
@@ -345,7 +345,7 @@ video#bgvideo {
     padding-right: 1em;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -357,7 +357,7 @@ video#bgvideo {
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -380,7 +380,7 @@ video#bgvideo {
     background-repeat: no-repeat;
     width: auto;
     height: 650px;
-    border: 1px white solid;
+    border-radius: 10px 10px 100px 100px;
     margin: 10px;
   }
 }
@@ -441,7 +441,7 @@ video#bgvideo {
     padding: 2em;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -457,7 +457,7 @@ video#bgvideo {
     padding: 20px 20px;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
   #contact ul {
@@ -488,7 +488,7 @@ video#bgvideo {
     padding-right: 1em;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -501,7 +501,7 @@ video#bgvideo {
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 100px 100px 10px;
     border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
@@ -517,7 +517,7 @@ video#bgvideo {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 10px 10px 100px 100px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     width: auto;
     height: 650px;
