@@ -454,7 +454,6 @@ video#bgvideo {
     margin-top: 15px, 10px;
     margin: 17px;
     padding: 20px 20px;
-    border: white 2px solid;
     background-color: rgba(0, 0, 0, 0.66);
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -521,8 +520,8 @@ video#bgvideo {
     border: 2px solid rgba(255, 255, 255, 0.2);
     width: auto;
     height: 650px;
-    border: 1px white solid;
     margin: 10px;
+    padding: 0 20px;
   }
 }
 
